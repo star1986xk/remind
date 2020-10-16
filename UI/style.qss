@@ -1,0 +1,47 @@
+#Form{border-image: url(:/newPrefix/background.jpg);}
+QPushButton{
+color: rgb(0, 85, 255);
+border-style:none;border-radius: 10px;
+}
+QPushButton:hover{
+color: rgb(0, 200, 255);
+}
+QPushButton:pressed {
+    /* 改变边框风格 */
+    border-style:inset;
+    /* 使文字有一点移动 */
+    padding-left:1px;
+    padding-top:1px;
+}
+#pushButton_close{
+padding:2px 2px 2px 2px;
+background-color: rgba(255,255,255,0);
+border-style:none;
+border-radius: 5px;
+image:url(:/newPrefix/关闭1.png);
+width:15px;height:15px;
+}
+
+#pushButton_close:hover{
+padding:2px 2px 2px 2px;
+image:url(:/newPrefix/关闭.png);
+background-color: rgb(220, 220, 220,100);
+border-radius: 5px;
+width:15px;height:15px;
+}
+#pushButton_close:pressed {
+padding:2px 2px 2px 2px;
+	image:url(:/newPrefix/关闭1.png);
+    /* 改变背景色 */
+    background-color:rgb(180, 180, 180,100);
+    /* 改变边框风格 */
+    border-style:inset;
+    /* 使文字有一点移动 */
+    padding-left:1px;
+    padding-top:1px;
+border-radius: 5px;
+}
+QTextEdit{
+border: none;
+background-color: rgb(255, 255, 255,0);
+}

@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>background.jpg</file>
+    <file>background.jpg</file>
+    <file>title.ico</file>
+    <file>关闭.png</file>
+    <file>关闭1.png</file>
+  </qresource>
+</RCC>
